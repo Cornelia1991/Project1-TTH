@@ -10,5 +10,10 @@
             Title = title;
             Artist = artist;
         }
+
+        public string GetDisplayText()
+        {
+            return "Album: " + Title + " by " + Artist;
+        }
     }
 }
